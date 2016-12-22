@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   <constant name="construts.devMode" value="true"/>
+   
+   <package name="default" extends="struts-default" namespace="/">
+      <default-action-ref name="login">/login.jsp</default-action-ref>
+	    
+	    <action name="login">
+	         <result>/login.jsp</result>
+	    </action>
+   
+   </package>
+
+	<package name="register" extends="struts-default" namespace="/">
+	
+		<action name="register" class="com.scs.action.RegisterAction">
+			<result name="register">loginFail.jsp</result>
+			<result name="fail">registerFail.jsp</result>
+		</action>
+		
+		<action name="login" class="com.scs.action.LoginAction" method="login">
+			<result name="retailer" type="redirectAction">
+				<param name="actionName">index</param>
+				<param name="namespace">/retailer</param>
+			</result>
+			<result name="agent" type="redirectAction">
+				<param name="actionName">index</param>
+				<param name="namespace">/agent</param>
+			</result>
+			<result name="manufacturer" type="redirectAction">
+				<param name="actionName">index</param>
+				<param name="namespace">/manufacturer</param>
+			</result>
+			<result name="error">loginFail.jsp</result>
+		</action>
+
+  </package>
+</struts>    

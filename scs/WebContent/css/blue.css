@@ -1,0 +1,12 @@
+ .smenu{position:absolute;overflow:hidden;height:28px;width:expression(document.body.clientWidth);left:0px;bottom:-1px;background:url('../images/xpbig.gif');padding:0px;padding-left:3px}
+ .min{background-image:url('../images/xp-max.gif');width:19px;height:19px;cursor:hand;}
+ .max{background-image:url('../images/xp-res.gif');width:19px;height:19px;cursor:hand;}
+ .sma{background-image:url('../images/xp-min.gif');width:19px;height:19px;cursor:hand;}
+ .uder{background-image:url('../images/xp-tit.gif');}
+ .uder1{background-image:url('../images/xp-tit.gif');cursor:move;}
+ .tits{font-size:12px;font-family:Arial;padding-top:1px;padding-left:3px;height:18px;width:90%;overflow:hidden;text-overflow:ellipsis;}
+ .font{padding-left:0px;background-color:#98C8EF;font-weight:bold;}
+ .lpic{background-image:url('../images/xp-l.gif');width:6px;height:26px;}
+ .rpic{background-image:url('../images/xp-r.gif');width:6px;height:26px;}
+ .cpic{background-image:url('../images/xp-clo.gif');width:21px;height:19px;cursor:hand;}
+ .cons{border:1px solid #4159B4;padding:3px}

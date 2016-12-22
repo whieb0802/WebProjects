@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>无标题页</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<STYLE type=text/css> 
+body{
+	FONT-SIZE: 20px
+}
+#menuTree A {
+	COLOR: #566984; TEXT-DECORATION: none
+}
+</STYLE>
+<SCRIPT src="Left.files/TreeNode.js" type=text/javascript></SCRIPT>
+<SCRIPT src="Left.files/Tree.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.5848" name=GENERATOR>
+</HEAD>
+<BODY 
+style="BACKGROUND-POSITION-Y: -120px; BACKGROUND-IMAGE: url(../images/bg.gif); BACKGROUND-REPEAT: repeat-x">
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+    <TR>
+      <TD width=10 height=29><IMG src="Left.files/bg_left_tl.gif"></TD>
+      <TD 
+    style="FONT-SIZE: 18px; BACKGROUND-IMAGE: url(../images/bg_left_tc.gif); COLOR: white; FONT-FAMILY: system">Main 
+        Menu</TD>
+      <TD width=10><IMG src="Left.files/bg_left_tr.gif"></TD>
+    </TR>
+    <TR>
+      <TD style="BACKGROUND-IMAGE: url(../images/bg_left_ls.gif)"></TD>
+      <TD id=menuTree 
+    style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; HEIGHT: 100%; BACKGROUND-COLOR: white" 
+    vAlign=top></TD>
+      <TD style="BACKGROUND-IMAGE: url(../images/bg_left_rs.gif)"></TD>
+    </TR>
+    <TR>
+      <TD width=10><IMG src="Left.files/bg_left_bl.gif"></TD>
+      <TD style="BACKGROUND-IMAGE: url(../images/bg_left_bc.gif)"></TD>
+      <TD width=10><IMG 
+src="Left.files/bg_left_br.gif"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<SCRIPT type=text/javascript>
+var tree1 = null;
+var tree2 = null;
+var tree3 = null;
+var tree4 = null;
+var tree5 = null;
+var tree6 = null;
+
+    var fun11 = new TreeNode('初始化');
+    var fun12 = new TreeNode('数据初始化', '../initialData.jsp', '56.png', null, '56.png', null);
+            fun11.add(fun12);
+
+    var fun21 = new TreeNode('参数设置');
+    var fun23 = new TreeNode('角色参数设置', '../roleParamSet', '56.png', null, '56.png', null);
+            fun21.add(fun23);
+    var fun24 = new TreeNode('产品参数设置', '../productParamSet', '56.png', null, '56.png', null);
+            fun21.add(fun24);
+    var fun26 = new TreeNode('仓库参数设置', '../bedParamSet', '56.png', null, '56.png', null);
+            fun21.add(fun26);
+    var fun25 = new TreeNode('市场需求设置', '../demandSet', '56.png', null, '56.png', null);
+            fun21.add(fun25);
+           
+    var fun31 = new TreeNode('用户管理');
+    var fun32 = new TreeNode('用户列表', '../userList.action?page=1', '56.png', null, '56.png', null);
+            fun31.add(fun32);
+    var fun33 = new TreeNode('分组分角色', '../groupInfoGet', '56.png', null, '56.png', null);
+            fun31.add(fun33);
+            
+    var fun41 = new TreeNode('经营管理');
+    var fun42 = new TreeNode('注册结束', '../registerEnd2', '56.png', null, '56.png', null);
+            fun41.add(fun42);
+    var fun44 = new TreeNode('当期还原', 'DepartmentMgr.aspx', '56.png', null, '56.png', null);
+            fun41.add(fun44);
+            
+    var fun51 = new TreeNode('数据备份还原');
+    var fun52 = new TreeNode('数据备份', 'BranchMgr.aspx', '56.png', null, '56.png', null);
+            fun51.add(fun52);
+    var fun53 = new TreeNode('数据还原', 'DepartmentMgr.aspx', '56.png', null, '56.png', null);
+            fun51.add(fun53);
+            
+    var fun61 = new TreeNode('查看报表');
+    var fun63 = new TreeNode('利润表', '../profitReport?currentime=1', '56.png', null, '56.png', null);
+            fun61.add(fun63);
+    var fun64 = new TreeNode('资产负债表', 'DepartmentMgr.aspx', '56.png', null, '56.png', null);
+            fun61.add(fun64);
+            
+tree1 = new Tree(fun11);
+tree2 = new Tree(fun21);
+tree3 = new Tree(fun31);
+tree4 = new Tree(fun41);
+tree5 = new Tree(fun51);
+tree6 = new Tree(fun61);
+
+tree1.show('menuTree')
+tree2.show('menuTree')
+tree3.show('menuTree')
+tree4.show('menuTree')
+tree5.show('menuTree')
+tree6.show('menuTree')
+</SCRIPT>
+</BODY>
+</HTML>

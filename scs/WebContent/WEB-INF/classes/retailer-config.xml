@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   <constant name="construts.devMode" value="true"/>
+  
+  <package name="retailer" extends="struts-default" namespace="/retailer">
+  
+        <action name="index" class="com.scs.action.LoginAction" method="index">
+			<result name="index">index.jsp</result>
+		</action>
+
+		<action name="orderaction" class="com.scs.action.OrderAction">
+			<result name="neworder">message.jsp</result>
+			<result name="select">ckddxx.jsp</result>
+			<result name="error">message.jsp</result>
+			<result name="exists">message.jsp</result>
+		</action>	
+		
+		<action name="billaction" class="com.scs.action.BillAction">
+			<result name="select">ckxsxx.jsp</result>
+		</action>	
+		
+		<action name="inventoryaction" class="com.scs.action.InventoryAction">
+		 	<result name="rincome">income.jsp</result>
+		 	<result name="rbillconfirm">message.jsp</result>
+		 	<result name="nomoney">message.jsp</result>
+		 	<result name="nostorage">message.jsp</result>
+		 	<result name="routcome">message.jsp</result>
+		 	<result name="outcomerror">message.jsp</result>
+		 	<result name="rfindall">ckkcxx.jsp</result>
+		 	<result name="kcbz">message.jsp</result>
+		 	<result name="noincome">message.jsp</result>
+		 	<result name="outexists">message.jsp</result>
+		 	
+		</action>	
+		
+		<action name="useraction" class="com.scs.action.UserAction">
+	        <result name="dqjs">message.jsp</result>
+	        <result name="error">message.jsp</result>
+	        <result name="success" type="">message.jsp</result>
+		</action>
+		
+		<action name="fundaction" class="com.scs.action.FundAction">
+	        <result name="loansuccess">message.jsp</result>
+	        <result name="loanfail">message.jsp</result>
+	        <result name="exists">message.jsp</result>
+		</action>
+		
+		<action name="storageaction" class="com.scs.action.StorageAction">
+		    <result name="buysuccess">message.jsp</result>
+		    <result name="rentsuccess">message.jsp</result>
+		    <result name="storageinfo">ckckxx.jsp</result>
+		    <result name="failed">message.jsp</result>
+		</action>
+		
+		<action name="consumeaction" class="com.scs.action.ConsumeAction">
+		    <result name="exists">message.jsp</result>
+		    <result name="success">receiveOrder.jsp</result>
+		    <result name="confirm">message.jsp</result>
+		    <result name="outcome">outcome.jsp</result>
+		</action>
+		
+	    <action name="profitaction" class="com.scs.action.FinanceAction" method="profit">
+		    <result name="profit">profit.jsp</result>
+		    <result name="error">message.jsp</result>
+		</action>
+		
+		<action name="equityaction" class="com.scs.action.FinanceAction" method="equity">
+		    <result name="equity">equity.jsp</result>
+		    <result name="error">message.jsp</result>
+		</action>
+		
+		<action name="commonGroup" class="com.scs.action.GroupAction" method="commonGroup">
+		    <result name="commonGroup">groupinfo.jsp</result>
+		</action>
+		
+		
+ </package>
+
+
+</struts>    

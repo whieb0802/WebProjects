@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="manager" namespace="/manager" extends="struts-default">
+	    <default-action-ref name="managerLogin"></default-action-ref>
+	    
+	    <action name="managerLogin">
+	         <result>/login.jsp</result>
+	    </action>
+		
+		<action name="updateGroupInfo" class="com.scs.action.GroupAction" method="updateGroupInfo">
+			<result name="updateGroupInfo" type="chain">groupInfoGet</result>
+		</action>
+		
+		<action name="groupInfoGet" class="com.scs.action.GroupAction" method="groupInfoGet">
+			<result name="groupInfoGet">user_group.jsp</result>
+		</action>
+		
+		<action name="groupBegin" class="com.scs.action.GroupAction" method="groupBegin">
+			<result name="groupBegin" type="chain">groupInfoGet</result>
+		</action>
+		
+		<action name="userList" class="com.scs.action.UserAction" method="userList">
+			<result>user_list.jsp</result>
+		</action>
+		
+		<action name="productParamSet" class="com.scs.action.ProductAction" method="productParamSet">
+			<result name="productParamSet">product_paramSet.jsp</result>
+		</action>
+		
+		<action name="productParamUpdate" class="com.scs.action.ProductAction" method="productParamUpdate">
+			<result name="productParamUpdate" type="chain">productParamSet</result>
+		</action>
+		
+		<action name="bedParamSet" class="com.scs.action.StorageinfoAction" method="bedParamSet">
+			<result name="bedParamSet">bed_paramSet.jsp</result>
+		</action>
+		
+		<action name="bedParamUpdate" class="com.scs.action.StorageinfoAction" method="bedParamUpdate">
+			<result name="bedParamUpdate" type="chain">bedParamSet</result>
+		</action>
+		
+		
+		<action name="demandSet" class="com.scs.action.DemandAction" method="demandSet">
+			<result name="demandSet">demandSet.jsp</result>
+		</action>
+		
+		<action name="demandUpdate" class="com.scs.action.DemandAction" method="demandUpdate">
+			<result name="demandUpdate" type="chain">demandSet</result>
+		</action>
+		
+		<action name="financeUpdate" class="com.scs.action.FinanceAction" method="financeUpdate">
+			<result name="financeUpdate" type="chain">financeGet</result>
+		</action>
+		
+		<action name="financeGet" class="com.scs.action.FinanceAction" method="financeGet">
+			<result name="financeGet">financeSet.jsp</result>
+		</action>
+		
+		<action name="registerEnd1" class="com.scs.action.CurrentimeAction" method="registerEnd1">
+			<result name="registerEnd1">registerEnd.jsp</result>
+		</action>
+		
+		<action name="registerEnd2" class="com.scs.action.CurrentimeAction" method="registerEnd2">
+			<result name="registerEnd2">registerEnd.jsp</result>
+		</action>
+		<action name="check" class="com.scs.action.CurrentimeAction" method="check">
+			<result name="success">../register</result>
+			<result name="error">../register.jsp</result>
+		</action>
+		
+		<action name="roleParamSet" class="com.scs.action.RoleAction" method="roleParamSet">
+			<result name="roleParamSet">role_paramSet.jsp</result>
+		</action>
+		
+		<action name="roleParamUpdate" class="com.scs.action.RoleAction" method="roleParamUpdate">
+		    <result type="chain">roleParamSet</result>
+		</action>
+		
+		<action name="profitReport" class="com.scs.action.FinanceAction" method="profitReport">
+		    <result name="profitReport">profitReport.jsp</result>
+		</action>
+		
+		<action name="initialData" class="com.scs.action.InitialDataAction" method="initialData">
+		    <result name="initialData">../retailer/message.jsp</result>
+		</action>
+		
+		<action name="managerLogin" class="com.scs.action.LoginAction" method="managerLogin">
+		    <result name="loginSuccess">index.html</result>
+		    <result name="loginFail">../loginFail.jsp</result>
+		</action>
+	</package>
+
+</struts>    

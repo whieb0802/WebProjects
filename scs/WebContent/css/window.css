@@ -1,0 +1,28 @@
+#table1{
+	width:318px;
+	height:175px;
+	background-color:#CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+#redfont {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #F00;
+}
+#newfactory{
+	background-color:#CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.newproduct {
+	font-size: 12px;
+}

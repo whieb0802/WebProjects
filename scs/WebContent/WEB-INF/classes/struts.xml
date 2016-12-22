@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+   <constant name="construts.devMode" value="true"/>
+
+	<include file="manager-config.xml"></include>
+	<include file="retailer-config.xml"></include>
+	<include file="agent-config.xml"></include>
+	<include file="manufacturer-config.xml"></include>
+	<include file="register-config.xml"></include>
+</struts>    

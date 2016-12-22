@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top01 {
+	position:absolute;
+	width:222px;
+	height:90px;
+	z-index:1;
+	left: 38px;
+	top: 2px;
+	z-index:0;
+}
+#top02 {
+	position:absolute;
+	width:200px;
+	height:36px;
+	z-index:1;
+	right: 10%;
+	top: 43px;
+	z-index:0;
+}
+#left01 {
+	position:absolute;
+	width:89px;
+	height:36px;
+	z-index:1;
+	left: 8px;
+	top: 147px;
+	z-index:0;
+}
+#left02 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 123px;
+	top: 171px;
+	z-index:0;
+}
+#left03 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 7px;
+	top: 423px;
+	z-index:0;
+}
+#left04 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 128px;
+	top: 255px;
+	z-index:0;
+}
+#left05 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 128px;
+	top: 300px;
+	z-index:0;
+}
+#left06 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 127px;
+	top: 343px;
+	z-index:0;
+}
+#left07 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 127px;
+	top: 389px;
+	z-index:0;
+}
+#main00 {
+	position:absolute;
+	width:102px;
+	height:36px;
+	z-index:1;
+	left: 629px;
+	top: 135px;
+	z-index:0;
+}
+#main01 {
+	position:absolute;
+	width:174px;
+	height:36px;
+	z-index:1;
+	left: 511px;
+	top: 113px;
+	z-index:0;
+}
+#main02 {
+	position:absolute;
+	width:102px;
+	height:36px;
+	z-index:1;
+	left: 416px;
+	top: 219px;
+	z-index:0;
+}
+#main03 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 392px;
+	top: 353px;
+	z-index:0;
+}
+#main04 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 439px;
+	top: 479px;
+	z-index:0;
+}
+#main05 {
+	position:absolute;
+	width:102px;
+	height:36px;
+	z-index:1;
+	left: 554px;
+	top: 549px;
+	z-index:0;
+}
+#main06 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 691px;
+	top: 549px;
+	z-index:0;
+}
+#main07 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 808px;
+	top: 474px;
+	z-index:0;
+}
+#main08 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 868px;
+	top: 351px;
+	z-index:0;
+}
+#main09 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 607px;
+	top: 346px;
+	z-index:0;
+}
+#main10 {
+	position:absolute;
+	width:101px;
+	height:36px;
+	z-index:1;
+	left: 840px;
+	top: 222px;
+	z-index:0;
+}

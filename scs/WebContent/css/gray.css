@@ -1,0 +1,12 @@
+ .smenu{position:absolute;overflow:hidden;height:28px;width:expression(document.body.clientWidth);left:0px;bottom:-1px;background:url('images/menubig.gif');padding:0px;padding-left:3px}
+ .min{background-image:url('images/win-max.gif');width:26px;height:18px;cursor:hand;}
+ .max{background-image:url('images/win-res.gif');width:26px;height:18px;cursor:hand;}
+ .sma{background-image:url('images/win-min.gif');width:26px;height:18px;cursor:hand;}
+ .uder{background-image:url('images/win-tit.gif');}
+ .uder1{background-image:url('images/win-tit.gif');cursor:move;}
+ .tits{font-size:12px;font-family:Arial;padding-top:1px;padding-left:3px;height:18px;width:90%;overflow:hidden;text-overflow:ellipsis;}
+ .font{padding-left:0px;background-color:#ffffff;font-weight:bold;}
+ .lpic{background-image:url('images/btn-l.gif');width:6px;height:26px;}
+ .rpic{background-image:url('images/btn-r.gif');width:6px;height:26px;}
+ .cpic{background-image:url('images/win-clo.gif');width:35px;height:18px;cursor:hand;}
+ .cons{border:1px solid #9D9D9D;padding:3px}
