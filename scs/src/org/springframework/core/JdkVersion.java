@@ -7,7 +7,6 @@ public abstract class JdkVersion {
     public static final int JAVA_17 = 4;
     //for jre 1.8
     public static final int JAVA_18 = 5;
-    
     private static final String javaVersion = System
             .getProperty("java.version");
     private static final int majorJavaVersion;
