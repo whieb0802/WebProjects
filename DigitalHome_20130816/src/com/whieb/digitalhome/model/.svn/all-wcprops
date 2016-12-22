@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/DH/!svn/ver/64/branches/DigitalHome/src/com/whieb/digitalhome/model
+END
+Trade.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/Trade.java
+END
+RecommenderResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/RecommenderResult.java
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/Connection.java
+END
+Source.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/Source.java
+END
+ContentItemSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/ContentItemSimilarity.java
+END
+MyInterest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/MyInterest.java
+END
+ItemFeedback.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/ItemFeedback.java
+END
+Catalogue.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/64/branches/DigitalHome/src/com/whieb/digitalhome/model/Catalogue.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/Config.java
+END
+NewTrade.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DH/!svn/ver/6/branches/DigitalHome/src/com/whieb/digitalhome/model/NewTrade.java
+END
+MyAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DH/!svn/ver/31/branches/DigitalHome/src/com/whieb/digitalhome/model/MyAttribute.java
+END
+Template.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DH/!svn/ver/21/branches/DigitalHome/src/com/whieb/digitalhome/model/Template.java
+END
+CollaborativeItemSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/CollaborativeItemSimilarity.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/User.java
+END
+SourceItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/SourceItem.java
+END
+CollaborativeUserSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/CollaborativeUserSimilarity.java
+END
+IRating.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/model/IRating.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/model/Item.java
+END

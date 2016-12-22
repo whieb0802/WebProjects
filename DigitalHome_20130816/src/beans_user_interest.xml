@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans >
+	<description>Configuration of the item similarity builder</description>
+	
+	<!-- 建立用户兴趣模型表 -->
+	<bean id="userinterestreplayer" class="com.whieb.digitalhome.service.interest.UserInterestReplay">
+		<property name="ratingDao" ref="ratingDao"/>
+		<property name="userDao" ref="userDao"/>
+		<property name="itemDao" ref="itemDao"/>
+		<property name="attriAreaHandle" ref="attriAreaHandle"/>
+		<property name="attriTypeHandle" ref="attriTypeHandle"/>
+		<property name="attriDirectorHandle" ref="attriDirectorHandle"/>
+		<property name="attriActorHandle" ref="attriActorHandle"/>
+		<property name="attributeWeight" ref="attributeWeight"/>
+		<property name="interestDao" ref="interestDao"></property>
+ 	</bean>
+ 	
+ 	<bean id="ratingDao" class="com.whieb.digitalhome.dao.impl.RatingDaoImpl">
+ 		<property name="utilDao" ref="utilDao"></property>
+ 	</bean>
+ 	
+ 	<bean id="userDao" class="com.whieb.digitalhome.dao.impl.UserDaoImpl">
+ 		<property name="utilDao" ref="utilDao"></property>
+ 	</bean>
+ 	
+ 	<bean id="itemDao" class="com.whieb.digitalhome.dao.impl.ItemDaoImpl">
+ 		<property name="utilDao" ref="utilDao"></property>
+ 	</bean>
+ 	
+ 	<bean id="attriAreaHandle" class="com.whieb.digitalhome.service.interest.UserInterestAreaHandle">
+ 		<property name="itemDao" ref="itemDao"/>
+ 		<property name="interestDao" ref="interestDao"/>
+ 	</bean>
+ 	
+ 	<bean id="attriTypeHandle" class="com.whieb.digitalhome.service.interest.UserInterestTypeHandle">
+ 		<property name="itemDao" ref="itemDao"/>
+ 		<property name="interestDao" ref="interestDao"/>
+ 	</bean>
+ 	
+ 	<bean id="attriDirectorHandle" class="com.whieb.digitalhome.service.interest.UserInterestDirectorHandle">
+ 		<property name="itemDao" ref="itemDao"/>
+ 		<property name="interestDao" ref="interestDao"/>
+ 	</bean>
+ 	
+ 	<bean id="attriActorHandle" class="com.whieb.digitalhome.service.interest.UserInterestActorHandle">
+ 		<property name="itemDao" ref="itemDao"/>
+ 		<property name="interestDao" ref="interestDao"/>
+ 	</bean>
+ 	
+ 	<bean id="attributeWeight" class="com.whieb.digitalhome.service.interest.AttributeWeightChange">
+ 		<property name="itemDao" ref="itemDao"/>
+ 		<property name="interestDao" ref="interestDao"/>
+ 		<property name="ratingDao" ref="ratingDao"></property>
+ 	</bean>
+ 	
+ 	<bean id="interestDao" class="com.whieb.digitalhome.dao.impl.InterestDaoImpl">
+ 		<property name="utilDao" ref="utilDao"/>
+ 	</bean>
+ 	
+ 	<bean id="utilDao" class="com.whieb.digitalhome.util.impl.UtilDaoImpl">
+ 		<property name="sessionFactory" ref="recommender.sessionFactory"></property>
+ 	</bean>
+ 	
+
+ 
+ 
+ 	<!--用户兴趣模型推荐  -->
+ 	<bean id="userinterestrecommend" class="com.whieb.digitalhome.service.InterestService">
+ 		<property name="interestDao" ref="interestDao"/>
+ 		
+ 	</bean>
+ 	
+</beans>

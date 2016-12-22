@@ -1,0 +1,15 @@
+#http://www.mchange.com/projects/c3p0/#configuration_properties
+c3p0.acquireIncrement = 1
+
+#idleConnectionTestPeriod is belangrijk. MySQL gooit na 8 uur zijn connecties/threads weg (resp. connect_timeout en wait_timeout)
+#c3p0 denkt dat een pooled connectie nog gebruikt kan worden. Helaas -> exceptie.
+#door deze property in te stellen op een waarde die kleiner is dan de mysql timeouts gaat het goed
+c3p0.idleConnectionTestPeriod = 14400
+
+#maxIdleTime c3p0 ruimt connecties die gedurende genoemde periode niet meer zijn gebruikt op. 
+#c3p0.maxIdleTime = 14400
+c3p0.minPoolSize = 5
+c3p0.maxPoolSize = 10000
+c3p0.maxStatements = 0
+c3p0.preferredTestQuery = select 1;
+

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/service/UserService.java
+END
+ItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DH/!svn/ver/48/branches/DigitalHome/src/com/whieb/digitalhome/service/ItemService.java
+END
+SourceItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DH/!svn/ver/55/branches/DigitalHome/src/com/whieb/digitalhome/service/SourceItemService.java
+END
+ConnectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/ConnectionService.java
+END
+ContentBasedItemSimilarityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/ContentBasedItemSimilarityService.java
+END
+ParameterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/service/ParameterService.java
+END
+RecommenderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/RecommenderService.java
+END
+RatingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/RatingService.java
+END
+SimilarityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/SimilarityService.java
+END
+TemplateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/23/branches/DigitalHome/src/com/whieb/digitalhome/service/TemplateService.java
+END
+CollaborativeUserSimilarityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/service/CollaborativeUserSimilarityService.java
+END
+CollaborativeItemSimilarityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/service/CollaborativeItemSimilarityService.java
+END
+DataTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DH/!svn/ver/6/branches/DigitalHome/src/com/whieb/digitalhome/service/DataTransfer.java
+END
+InterestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/44/branches/DigitalHome/src/com/whieb/digitalhome/service/InterestService.java
+END

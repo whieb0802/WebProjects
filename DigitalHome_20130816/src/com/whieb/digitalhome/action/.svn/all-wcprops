@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/action
+END
+ContentRecAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/action/ContentRecAction.java
+END
+BaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DH/!svn/ver/19/branches/DigitalHome/src/com/whieb/digitalhome/action/BaseAction.java
+END
+TemplateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DH/!svn/ver/21/branches/DigitalHome/src/com/whieb/digitalhome/action/TemplateAction.java
+END
+DataInitAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/action/DataInitAction.java
+END
+InterestAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DH/!svn/ver/55/branches/DigitalHome/src/com/whieb/digitalhome/action/InterestAction.java
+END
+ItemAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/action/ItemAction.java
+END
+UserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/action/UserAction.java
+END
+ConnectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/23/branches/DigitalHome/src/com/whieb/digitalhome/action/ConnectionAction.java
+END
+ParameterAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/action/ParameterAction.java
+END
+RecommenderAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/action/RecommenderAction.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/DH/!svn/ver/62/branches/DigitalHome/junit.test/service
+END
+ItemServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DH/!svn/ver/2/branches/DigitalHome/junit.test/service/ItemServiceTest.java
+END
+UserServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DH/!svn/ver/2/branches/DigitalHome/junit.test/service/UserServiceTest.java
+END
+ParameterServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DH/!svn/ver/2/branches/DigitalHome/junit.test/service/ParameterServiceTest.java
+END
+CreateDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DH/!svn/ver/62/branches/DigitalHome/junit.test/service/CreateDataset.java
+END

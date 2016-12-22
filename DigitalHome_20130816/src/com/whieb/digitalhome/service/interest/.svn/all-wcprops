@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/interest
+END
+AttributeHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/AttributeHandle.java
+END
+AttributeWeightChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/AttributeWeightChange.java
+END
+UserInterestActorHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterestActorHandle.java
+END
+UserInterestAreaHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterestAreaHandle.java
+END
+UserInterestDirectorHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterestDirectorHandle.java
+END
+UserInterestReplay.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterestReplay.java
+END
+UserInterestTypeHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/DH/!svn/ver/32/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterestTypeHandle.java
+END
+UserInterest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DH/!svn/ver/50/branches/DigitalHome/src/com/whieb/digitalhome/service/interest/UserInterest.java
+END

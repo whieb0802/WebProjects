@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/WB/common/main.jsp=UTF-8
+encoding//WebContent/WB/common/top.jsp=UTF-8
+encoding//WebContent/WB/index.jsp=UTF-8
+encoding//WebContent/login.jsp=UTF-8
+encoding//src/com/whieb/digitalhome/action=UTF-8
+encoding//src/com/whieb/digitalhome/action/ItemAction.java=UTF-8
+encoding//src/com/whieb/digitalhome/dao=UTF-8
+encoding//src/com/whieb/digitalhome/model=UTF-8
+encoding//src/com/whieb/digitalhome/service/ItemService.java=UTF-8
+encoding//src/com/whieb/digitalhome/service/UserService.java=UTF-8
+encoding//src/com/whieb/digitalhome/util/UtilDao.java=UTF-8
+encoding//src/com/whieb/digitalhome/util/impl/UtilDaoImpl.java=UTF-8
+encoding//src/com/whieb/digitalhome/util/page=UTF-8
+encoding/WebContent=UTF-8

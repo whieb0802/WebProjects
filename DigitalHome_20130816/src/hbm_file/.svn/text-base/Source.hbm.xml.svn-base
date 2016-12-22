@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.whieb.digitalhome.model.Source" table="source_table">
+    <id column="id" name="id" type="long">
+      <generator class="native"/>
+    </id>
+    <property column="TVid" name="TVid"/>
+    <property column="name" name="name"/>
+    <property column="s_time" name="s_time" type="timestamp"/>
+     <property column="e_time" name="e_time" type="timestamp"/>
+  </class>
+</hibernate-mapping>

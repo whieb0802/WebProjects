@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="placeholderConfig"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:jdbc.properties" />
+	</bean>
+	<bean id="recommender.sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="recommender.dataSource" />
+		<property name="mappingResources">
+			<list>
+				<value>hbm_file/Rating.hbm.xml
+				</value>
+				<value>hbm_file/User.hbm.xml
+				</value>
+				<value>hbm_file/Catalogue.hbm.xml
+				</value>
+				<value>hbm_file/Item.hbm.xml
+				</value>
+				<value>hbm_file/Trade.hbm.xml
+				</value>
+				<value>hbm_file/Connection.hbm.xml
+				</value>
+				<value>hbm_file/CollaborativeItemSimilarity.hbm.xml
+				</value>
+				<value>hbm_file/CollaborativeUserSimilarity.hbm.xml
+				</value>
+				<value>hbm_file/ContentItemSimilarity.hbm.xml
+				</value>
+				<value>hbm_file/RecommenderResult.hbm.xml
+				</value>
+				<value>hbm_file/Interest.hbm.xml
+				</value>
+				<value>hbm_file/Source.hbm.xml
+				</value>
+				<value>hbm_file/SourceItem.hbm.xml
+				</value>
+				<value>hbm_file/MyAttribute.hbm.xml</value>
+				<value>hbm_file/Config.hbm.xml</value>
+				<value>hbm_file/NewTrade.hbm.xml</value>
+				<value>hbm_file/Template.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties" ref="recommender.hibernateProperties" />
+	</bean>
+
+	<bean id="recommender.dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<description>The database where duine stores profiles, ratings etc.
+		</description>
+		<property name="driverClass">
+			<value>${db.driverClass}</value>
+		</property>
+		<property name="jdbcUrl">
+			<value>${db.serverHost}DigitalHome2</value>
+		</property>
+		<property name="user">
+			<value>${db.user}</value>
+		</property>
+		<property name="password">
+			<value>${db.password}</value>
+		</property>
+	</bean>
+
+	<bean id="recommender.hibernateProperties"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="properties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

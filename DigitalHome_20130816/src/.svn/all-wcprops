@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/DH/!svn/ver/65/branches/DigitalHome/src
+END
+beans_hq.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/beans_hq.xml
+END
+beans_yjf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/beans_yjf.xml
+END
+paoding-dic-home.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/DH/!svn/ver/63/branches/DigitalHome/src/paoding-dic-home.properties
+END
+c3p0.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/c3p0.properties
+END
+beans_datasource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/DH/!svn/ver/65/branches/DigitalHome/src/beans_datasource.xml
+END
+beans_user_interest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DH/!svn/ver/34/branches/DigitalHome/src/beans_user_interest.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/struts.xml
+END
+beans_source_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/beans_source_item.xml
+END
+beans_webservice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/beans_webservice.xml
+END
+digitalhome_webservices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/digitalhome_webservices.xml
+END
+beans_source.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/beans_source.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/log4j.properties
+END
+cache.ccf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/cache.ccf
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/DH/!svn/ver/24/branches/DigitalHome/src/jdbc.properties
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/dao
+END
+TemplateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/21/branches/DigitalHome/src/com/whieb/digitalhome/dao/TemplateDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/UserDao.java
+END
+SourceItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/SourceItemDao.java
+END
+RatingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DH/!svn/ver/14/branches/DigitalHome/src/com/whieb/digitalhome/dao/RatingDao.java
+END
+UserSimilarityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/UserSimilarityDao.java
+END
+InterestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DH/!svn/ver/30/branches/DigitalHome/src/com/whieb/digitalhome/dao/InterestDao.java
+END
+ItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/dao/ItemDao.java
+END
+TradeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/TradeDao.java
+END
+RecommenderResultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/RecommenderResultDao.java
+END
+ConnectionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/ConnectionDao.java
+END
+SourceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/SourceDao.java
+END
+AttributeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/30/branches/DigitalHome/src/com/whieb/digitalhome/dao/AttributeDao.java
+END
+ItemSimilarityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/ItemSimilarityDao.java
+END
+ConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/dao/ConfigDao.java
+END
+NewTradeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DH/!svn/ver/6/branches/DigitalHome/src/com/whieb/digitalhome/dao/NewTradeDao.java
+END

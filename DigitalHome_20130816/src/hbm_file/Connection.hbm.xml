@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.whieb.digitalhome.model.Connection" table="connection">
+    <id column="id" name="id" type="long">
+      <generator class="native"/>
+    </id>
+    <property column="relativeId" name="relativeId"/>
+    <property column="resourceId" name="resourceId"/>
+    <property column="supportLevel" name="supportLevel"/>
+    <property column="confidence" name="confidence"/>
+  </class>
+</hibernate-mapping>

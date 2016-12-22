@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>menu</title>
+<link rel="stylesheet" href="../skin/css/base.css" type="text/css" />
+<link rel="stylesheet" href="../skin/css/menu.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language='javascript'>var curopenItem = '1';</script>
+<script language="javascript" type="text/javascript" src="../skin/js/frame/menu.js"></script>
+<base target="main" />
+</head>
+<body target="main">
+<table width='99%' height="100%" border='0' cellspacing='0' cellpadding='0'>
+  <tr>
+    <td style='padding-left:3px;padding-top:8px' valign="top">
+	<!-- Item 1 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items1_1")'>推荐列表</dt>
+        <dd style='display:block' class='sitem' id='items1_1'>
+          <ul class='sitemu'>
+              <li><a href='../itemAction!recommendNew' target='main'>最新资源推荐</a> </li>
+              <li><a href='../recommenderAction!showHotItems' target='main'>热门资源推荐</a> </li>
+<!--               <li><a href='../recommend_content.jsp' target='main'>基于内容推荐</a> </li> -->
+              <li><a href='../recommenderAction!showContentBasedRecommenderItem' target='main'>基于内容推荐</a> </li>
+              <li><a href='../recommenderAction!showCollabaorativeUserBasedRecommender' target='main'>用户协同过滤</a> </li>
+              <li><a href='../recommenderAction!showCollaborativeItemBasedRecommender' target='main'>项目过滤推荐</a> </li> 
+              <li><a href='../interestAction!interestRecommender' target='main'>兴趣模型推荐</a> </li>
+              <li><a href='../recommend_association.jsp' target='main'>关联模式推荐</a> </li>
+        	  <li><a href='../recommend_template.jsp' target='main'>业务模版推荐</a> </li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 1 End -->
+      <!-- Item 2 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items2_1")'><b>系统设置</b></dt>
+        <dd style='display:block' class='sitem' id='items2_1'>
+          <ul class='sitemu'>
+            <li><a href='../userAction!listAll' target='main'>查看所有用户</a></li>
+            <li><a href='../itemAction!listAll' target='main'>查看所有项目</a></li>
+            <li><a href='../itemAction!showHistory' target='main'>查看历史消费</a></li>
+<!--             <li><a href='../itemAction!showRating' target='main'>查看历史评分</a></li> -->
+            <li><a href='../interestAction!listAll' target='main'>查看兴趣模型</a></li>
+            <li><a href='../templateAction!show' target='main'>设置业务模版</a></li>
+            <li><a href='../parameterAction' target='main'>设置系统参数</a></li>
+<!--             <li><a href='../dataInitAction' target='main'>设置数据更新</a></li> -->
+<!--		<li><a href='../dataInitAction!run01' target='main'>关联规则计算</a></li>
+            <li><a href='../dataInitAction!run02' target='main'>内容过滤计算</a></li>
+            <li><a href='../dataInitAction!run03' target='main'>兴趣模型计算</a></li>
+            <li><a href='../list_help.html' target='main'>查看帮助文档</a></li> -->
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 2 End -->
+	  </td>
+  </tr>
+</table>
+</body>
+</html>

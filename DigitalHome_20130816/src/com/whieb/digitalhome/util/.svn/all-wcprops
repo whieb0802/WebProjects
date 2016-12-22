@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/util
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DH/!svn/ver/24/branches/DigitalHome/src/com/whieb/digitalhome/util/Parameter.java
+END
+SourceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/util/SourceService.java
+END
+UtilDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/UtilDao.java
+END
+ItemAttributeCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/ItemAttributeCounter.java
+END
+RecommenderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/RecommenderType.java
+END
+AnalyzerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/AnalyzerUtil.java
+END
+Transfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/Transfer.java
+END
+DataTranslateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DH/!svn/ver/62/branches/DigitalHome/src/com/whieb/digitalhome/util/DataTranslateUtil.java
+END
+CheckWordUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/CheckWordUtil.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DH/!svn/ver/57/branches/DigitalHome/src/com/whieb/digitalhome/util/Configuration.java
+END
+CosineSimilarityMeasure.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/CosineSimilarityMeasure.java
+END
+MyComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DH/!svn/ver/2/branches/DigitalHome/src/com/whieb/digitalhome/util/MyComparator.java
+END
