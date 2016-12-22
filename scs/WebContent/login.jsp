@@ -118,13 +118,6 @@ body { font-family: "ËÎÌו"; font-size: 9pt; text-decoration: none ; margin-top: 
 <script
 language="JavaScript1.2">
 
-/*
-Left-Right Curtain Script- 
-?Dynamic Drive (www.dynamicdrive.com)
-For full source code, installation instructions,
-100's more free DHTML scripts, and Terms Of
-Use, visit dynamicdrive.com
-*/
 
 var speed=20
 var temp=new Array()
