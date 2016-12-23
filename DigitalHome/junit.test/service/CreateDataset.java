@@ -52,6 +52,24 @@ public class CreateDataset {
 			System.out.println("生成用户" + user.getKey() + "成功！");
 		}
 	}
+	
+	@Test
+	public void CreateItems() {
+		for (int i = 1; i <= 100; i++) {
+			Item item = new Item();
+			item.setTitle("资源名称" + i);
+			item.setDirector("导演"+i);
+			item.setInfo("简介"+i);
+			item.setIssuedate(new Date());
+			item.setType("类型"+i);
+			item.setPublisharea("地区"+i);
+			item.setStarring("主演"+i);
+			item.setCatalogueId(i);
+			item.setAvg(Math.random()*5);
+			is.addItem(item);
+			System.out.println("生成资源" + item.getId() + "成功！");
+		}
+	}
 
 	@Test
 	public void CreateTrade() {
