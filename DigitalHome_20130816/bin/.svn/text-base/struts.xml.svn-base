@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="default" extends="json-default" namespace="/">
+		<default-action-ref name="login">login.jsp</default-action-ref>
+
+		<action name="userAction" class="userAction">
+			<result name="fail">common/message.jsp</result>
+			<result name="logout">common/message.jsp</result>
+			<result name="success">index.jsp</result>
+			<result name="list">list_users.jsp</result>
+		</action>
+
+		<action name="itemAction" class="itemAction">
+			<result name="recommend_new">recommend_new.jsp</result>
+			<result name="showHistory">list_history.jsp</result>
+			<result name="list">list_items.jsp</result>
+		</action>
+		<action name="parameterAction" class="parameterAction">
+			<result name="success">list_parameter.jsp</result>
+			<result name="update" type="chain">parameterAction</result>
+		</action>
+		<action name="recommenderAction" class="recommenderAction">
+			<result name="showHotItems">recommend_hot.jsp</result>
+			<result name="showContentBasedRecommenderItem">recommend_contentbased.jsp</result>
+			<result name="showCollaborativeItemBasedRecommender">recommend_contentbased.jsp</result>
+			<result name="showCollaborativeUserBasedRecommender">recommend_contentbased.jsp</result>
+		</action>
+
+		<action name="interestAction" class="interestAction">
+			<result name="userInterestItem">recommend_interest.jsp</result>
+			<result name="userOwnInterest">list_interest.jsp</result>
+		</action>
+
+		<action name="connectionAction" class="connectionAction">
+			<result type="json">
+				<param name="contentType">application/json</param>
+			</result>
+		</action>
+		
+		<action name="templateAction" class="templateAction">
+			<result type="json">
+			<param name="contentType">application/json</param>
+			</result>
+			<result name="success">list_template.jsp</result>
+		</action>
+		
+		<action name="dataInitAction" class="dataInitAction">
+			<result name="success">data_init.jsp</result>
+			<result name="success01">data_init.jsp</result>
+			<result name="success02">data_init.jsp</result>
+			<result name="success03">data_init.jsp</result>
+		</action>
+		
+		<action name="contentRecAction" class="contentRecAction">
+			<result type="json">
+			<param name="contentType">application/json</param>
+			</result>
+		</action>
+		
+
+	</package>
+
+</struts>

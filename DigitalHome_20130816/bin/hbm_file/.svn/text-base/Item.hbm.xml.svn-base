@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.whieb.digitalhome.model.Item" table="item">
+    <id column="id" name="key" type="long">
+      <generator class="native"/>
+    </id>
+    <property column="title" name="title"/>
+    <property column="rating" name="avg"/>
+    <property column="catalogueId" name="catalogueId"/>
+    <property column="type" name="type"/>
+    <property column="publisharea" name="publisharea"/>
+    <property column="director" name="director"/>
+    <property column="starring" name="starring"/>
+    <property column="info" name="info"/>
+    <property column="issuedate" name="issuedate"/>
+  </class>
+</hibernate-mapping>

@@ -52,7 +52,7 @@
 			<value>${db.driverClass}</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>${db.serverHost}</value>
+			<value>${db.serverHost}DigitalHome2</value>
 		</property>
 		<property name="user">
 			<value>${db.user}</value>

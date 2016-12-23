@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.whieb.digitalhome.model.ContentItemSimilarity" table="content_item_similarity">
+    <id column="id" name="id" type="long">
+      <generator class="native"/>
+    </id>
+    <component class="org.duineframework.recommender.core.RatableItemId" name="itemId">
+      <property column="item_id" name="id" unique-key="unique-item-similarity"/>
+    </component>
+    <component class="org.duineframework.recommender.core.RatableItemId" name="otherItemId">
+      <property column="other_item_id" name="id" unique-key="unique-item-similarity"/>
+    </component>
+    <property column="similarity" name="similarity"/>
+  </class>
+</hibernate-mapping>

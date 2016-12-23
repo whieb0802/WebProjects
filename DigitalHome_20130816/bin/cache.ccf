@@ -1,0 +1,12 @@
+# DEFAULT CACHE REGION   
+
+jcs.default=
+jcs.default.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=500000
+jcs.default.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+
+
+jcs.region.ratingCache=
+jcs.region.ratingCache.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.ratingCache.cacheattributes.MaxObjects=500000
+jcs.region.ratingCache.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="sourceItemService" class="com.whieb.digitalhome.service.SourceItemService">
+		<property name="sourceItemDao" ref="sourceItemDao"></property>
+		<property name="itemDao" ref="itemDao"></property>
+	</bean>
+	<bean id="sourceItemDao" class="com.whieb.digitalhome.dao.impl.SourceItemDaoImpl">
+		<property name="utilDao" ref="utilDao"/>
+	</bean>
+</beans>

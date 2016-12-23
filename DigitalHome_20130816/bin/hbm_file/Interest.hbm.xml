@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.whieb.digitalhome.model.MyInterest" table="interest">
+  <!-- <class name="org.duineframework.recommender.dao.springhibernate.InterestHibernate" table="interest"> -->
+    <id column="id" name="id" type="long">
+      <generator class="native"/>
+    </id>
+    <component class="org.duineframework.recommender.core.UserId" name="user">
+      <property column="user_id" name="id" />
+    </component>
+    <property column="subjectType" name="subjectType"></property>
+    <property column="subject" name="subject" />
+    <property column="weight" name="weight"/>
+    <property column="counts" name="counts"></property>
+  </class>
+</hibernate-mapping>

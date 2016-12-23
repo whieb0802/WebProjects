@@ -1,0 +1,11 @@
+#jdbc.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#jdbc.url=jdbc:sqlserver://localhost:1433;databaseName=DigitalHome;
+#jdbc.username=SA
+#jdbc.password=123
+
+# mysql properties
+db.driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver
+db.serverHost=jdbc:sqlserver://localhost:1433;DataBaseName=
+db.user=SA
+db.password=whut.jjxy.eb
+hibernate.dialect=org.hibernate.dialect.SQLServerDialect
