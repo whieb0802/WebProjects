@@ -49,16 +49,23 @@ public class ItemAction extends BaseAction {
 		if (page == null) {
 			page=1;
 		}
-		List<Item> items = itemService.findNewItems(parameterService.getTopN());
-		request.put("items", items);
-//		分页显示
-//		LinkedHashMap<String, String> order = new LinkedHashMap<String, String>();
-//		order.put("issuedate", "DESC");
-//		ResultType<Item> resultType = utilDao.fenye(Item.class, page, parameter.getParamTopN(), order);
-//		PageView<Item> pageView = new PageView<Item>(PageView.MaxResutlt, page);
-//		pageView.setResultType(resultType);
-//		request.put("pageView", pageView);
-		return "recommend_new";
+		try {
+			List<Item> items = itemService.findNewItems(parameterService.getTopN());
+			request.put("items", items);
+	//		分页显示
+	//		LinkedHashMap<String, String> order = new LinkedHashMap<String, String>();
+	//		order.put("issuedate", "DESC");
+	//		ResultType<Item> resultType = utilDao.fenye(Item.class, page, parameter.getParamTopN(), order);
+	//		PageView<Item> pageView = new PageView<Item>(PageView.MaxResutlt, page);
+	//		pageView.setResultType(resultType);
+	//		request.put("pageView", pageView);
+			return "recommend_new";
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			return "404";
+		}
 	}
 	/**
 	 * 显示历史消费信息

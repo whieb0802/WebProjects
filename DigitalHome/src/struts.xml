@@ -19,6 +19,7 @@
 			<result name="recommend_new">recommend_new.jsp</result>
 			<result name="showHistory">list_history.jsp</result>
 			<result name="list">list_items.jsp</result>
+			<result name="404">404.jsp</result>
 		</action>
 		<action name="parameterAction" class="parameterAction">
 			<result name="success">list_parameter.jsp</result>
